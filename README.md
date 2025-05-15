@@ -1,6 +1,6 @@
 # Driver Drowsiness Detection using Milk-V Duo 256M and CAM-GC2083 (Linux - C++)
 
-This project implements a real-time driver drowsiness detection system using the Milk-V Duo 256M development board and the CAM-GC2083 camera module. The system captures live facial images, analyzes eye closure and head position patterns, and identifies early signs of drowsiness using computer vision techniques.
+This project implements a real-time driver drowsiness detection system using the Milk-V Duo 256M development board and the CAM-GC2083 camera module. The system captures live facial images, analyzes eye closure and head position patterns, and identifies early signs of drowsiness using computer vision techniques.: 
 
 The goal is to improve road safety by alerting the driver when signs of fatigue or microsleep are detected.
 
@@ -21,4 +21,13 @@ The goal is to improve road safety by alerting the driver when signs of fatigue 
 - CAMGC-2083: https://milkv.io/docs/duo/camera/gc2083
 
 ---
-## 
+## Code Requirement 
+- You should read documents and instruction from the official page of MilkV: https://milkv.io/docs/duo/getting-started/boot
+- Besides you need :
+    - lbfmodel
+    - haarcascade_frontalface_default.xml
+    - opencv-mobile (A lightweight OpenCV library, but in this project I customized it to run my code
+
+ ---
+## Methodology 
+

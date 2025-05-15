@@ -33,7 +33,7 @@ Modifications were made by [HuySG2002] to adapt the software for [driver drowsin
 - Besides you need :
     - lbfmodel - for facial landmark detection
     - haarcascade_frontalface_default.xml - for face detection
-    - opencv-mobile (a lightweight OpenCV library (customized for this project): https://drive.google.com/drive/folders/1s7Fq-bu_K3HhFJ6ruVsdDeZhvc7y3-LL?usp=drive_link
+    - opencv-mobile (a lightweight OpenCV library (customized for this project): https://drive.google.com/drive/folders/168lecYnUgDzVX6850an984UIn6MJvEtl?usp=drive_link
 
  ---
 ## Methodology 
@@ -59,7 +59,7 @@ To run the code in MilkVDuo256M with CAM-GC2083:
       - chmod +x opencv-mobile-test && LD_LIBRARY_PATH=/root/lib ./opencv-mobile-test
 
 ## Result: 
-
+https://drive.google.com/drive/folders/168lecYnUgDzVX6850an984UIn6MJvEtl?usp=drive_link
 ![image](https://github.com/user-attachments/assets/f38315b2-7700-4c17-b59d-4b5ea6bd7c83)
 
 

@@ -46,7 +46,8 @@ Modifications were made by [HuySG2002] to adapt the software for [driver drowsin
 ## Execution
   
 To run the code in MilkVDuo256M with CAM-GC2083: 
-- In PC:
+- In PC: 
+  * If you want to run it without board, I recommend you to run: g++ full_drowsiness_estimation.cpp -o drowsiness `pkg-config --cflags --libs opencv4` -std=c++11 
   * You need to create a folder lib in board first (mkdir lib) to restore *so files.
     - scp -O /home/user-name/opencv-mobile-4.9.0-milkv-duo/lib/*.so* root@192.168.42.1:/root/lib/: I had to cross-compile original opencv and opencv-contrib, so you need to move *so file into board        to use. 
     - cd build && scp -O opencv-mobile-test root@192.168.42.1:/root/
@@ -55,6 +56,7 @@ To run the code in MilkVDuo256M with CAM-GC2083:
       - chmod +x opencv-mobile-test && LD_LIBRARY_PATH=/root/lib ./opencv-mobile-test
 
 ## Result: 
+
 ![image](https://github.com/user-attachments/assets/f38315b2-7700-4c17-b59d-4b5ea6bd7c83)
 
 

@@ -52,6 +52,4 @@ To run the code in MilkVDuo256M with CAM-GC2083:
 
 
 --- 
-Inference: 
-https://milkv.io/docs/duo/getting-started
 

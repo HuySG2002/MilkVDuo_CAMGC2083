@@ -5,7 +5,14 @@ This project implements a real-time driver drowsiness detection system using the
 The goal is to improve road safety by alerting the driver when signs of fatigue or microsleep are detected.
 
 ---
+## License
 
+This project is a modified version of https://github.com/kurshakuz/drowsiness_detection.git, originally licensed under the MIT License.
+
+Modifications were made by [HuySG2002] to adapt the software for [driver drowsiness detection on Milk-V Duo 256M].
+
+
+---
 ## Key Features
 
 - Real-time video capture using GC2083 sensor

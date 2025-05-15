@@ -22,11 +22,11 @@ The goal is to improve road safety by alerting the driver when signs of fatigue 
 
 ---
 ## Code Requirement 
-- You should read documents and instruction from the official page of MilkV: https://milkv.io/docs/duo/getting-started/boot
+- Review the official Milk-V Duo documentation: https://milkv.io/docs/duo/getting-started/boot
 - Besides you need :
-    - lbfmodel
-    - haarcascade_frontalface_default.xml
-    - opencv-mobile (A lightweight OpenCV library, but in this project I customized it to run my code
+    - lbfmodel - for facial landmark detection
+    - haarcascade_frontalface_default.xml - for face detection
+    - opencv-mobile (a lightweight OpenCV library (customized for this project): https://drive.google.com/drive/folders/1s7Fq-bu_K3HhFJ6ruVsdDeZhvc7y3-LL?usp=drive_link
 
  ---
 ## Methodology 
@@ -37,7 +37,6 @@ The goal is to improve road safety by alerting the driver when signs of fatigue 
 
 ---
 ## Execution
-* If you want run code without MilkVDuo256M, I recommend you should use drowsy.cpp version
   
 To run the code in MilkVDuo256M with CAM-GC2083: 
 - In PC:
@@ -53,5 +52,6 @@ To run the code in MilkVDuo256M with CAM-GC2083:
 
 
 --- 
-
+Inference: 
+https://milkv.io/docs/duo/getting-started
 

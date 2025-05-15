@@ -30,4 +30,8 @@ The goal is to improve road safety by alerting the driver when signs of fatigue 
 
  ---
 ## Methodology 
+![image](https://github.com/user-attachments/assets/24b1ab25-ec41-4766-9a4f-5568494e374d)
+
+## Algorithm Flowchart
+
 
